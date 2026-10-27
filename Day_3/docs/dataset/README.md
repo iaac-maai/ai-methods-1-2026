@@ -63,6 +63,18 @@ The average day of each profile, in kW (computed from the `h00` … `h23` column
 
 **Right: the profiles through the year** (`month` and `cluster_name` columns). "Nobody home" makes up **55% of August** and 28% of July (summer holidays); "at home all day" is most common from **November to January** (34–41% of the days); the two workday profiles dominate the rest of the year.
 
+## Three maps of the same days
+
+![The days on the PCA, t-SNE and UMAP maps, coloured by cluster and by weekend](https://huggingface.co/datasets/iaac-maai/day3-example-daily-load-profiles/resolve/main/dataset_three_maps.png)
+
+The `pca_*`, `tsne_*` and `umap_*` columns place every day on three 2D maps of its 24-hour shape. Top row: coloured by `cluster_name`. Bottom row: coloured by `weekend`, a column that was **not** used for clustering.
+
+- **PCA** is a linear projection, so **its axes have a meaning**, read from the component loadings. **PC1** (21% of the variance) grows with a breakfast peak at 7:00, an evening peak at 19:00–22:00 and an empty middle of the day. **PC2** (15%) separates **morning-heavy** days (top) from **evening-heavy** days (bottom). The four profiles are **four slices of one round cloud**: "workday, empty house" on the right, "workday, home in the morning" at the top, "at home all day" at the bottom and "nobody home" (flat days) on the left. There are no gaps between them: K-Means cut a continuous cloud. Two components keep only 36% of the variance, so this map is a rough view.
+- **t-SNE and UMAP** keep neighbourhoods instead. The "nobody home" days form a **tight knot** (the holidays): the only group that is clearly set apart. The other borders stay fuzzy. On these maps the axes, the distances between groups and the group sizes mean nothing.
+- **Bottom row:** on all three maps the **weekends** gather where the "at home all day" days are, although `weekend` was never given to the algorithm. The clusters capture real behaviour. They are not the same thing, though: 39% of the "at home all day" days are weekdays (winter days at home, days off).
+
+To redraw any of these maps, see [How to load it](#how-to-load-it).
+
 ## Columns
 
 | Column | Type | Unit | Description |
