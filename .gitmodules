@@ -117,3 +117,9 @@
 # ---------------------------------------------------------------------------
 # HACKATHON MODULES
 # ---------------------------------------------------------------------------
+[submodule "Day_2/submissions/team_2"]
+	path = Day_2/submissions/team_2
+	url = https://github.com/iaac-maai/2-day2-assignment.git
+[submodule "Day_2/submissions/team_5"]
+	path = Day_2/submissions/team_5
+	url = https://github.com/iaac-maai/5-day2-assignment.git
