@@ -1,5 +1,14 @@
 # ai-methods-1-2026
 
+[![Hugging Face][hf-badge]][hf-url] [![Models][hf-models-badge]][hf-models-url] [![Datasets][hf-datasets-badge]][hf-datasets-url]
+
+[hf-badge]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-iaac--maai-FFD21E
+[hf-url]: https://huggingface.co/iaac-maai
+[hf-models-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Forganizations%2Fiaac-maai%2Foverview&query=%24.numModels&label=models&color=FFD21E&logo=huggingface
+[hf-models-url]: https://huggingface.co/iaac-maai?models
+[hf-datasets-badge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Forganizations%2Fiaac-maai%2Foverview&query=%24.numDatasets&label=datasets&color=FFD21E&logo=huggingface
+[hf-datasets-url]: https://huggingface.co/iaac-maai?datasets
+
 General repository for **AI Methods I: Machine Learning for the Built Environment** (MaAI01, Term 1, IAAC).
 
 It contains the lecture notebooks for each day of the course and links every student submission through **git submodules**. Each student keeps their work in their own repository inside the [iaac-maai](https://github.com/iaac-maai) organization, and this repository only points to it. This avoids conflicts with branches and version control: nobody pushes to this repository except the course maintainers.
