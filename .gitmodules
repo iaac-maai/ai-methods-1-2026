@@ -81,7 +81,7 @@
 
 [submodule "Day_1/submissions/team_8"]
 	path = Day_1/submissions/team_8
-	url = https://github.com/iaac-maai/Group8-day1-assignment.git
+	url = https://github.com/iaac-maai/Group08_AI-Methods.git
 
 # ---------------------------------------------------------------------------
 # DAY 2 MODULES
@@ -116,7 +116,7 @@
 
 [submodule "Day_2/submissions/team_8"]
 	path = Day_2/submissions/team_8
-	url = https://github.com/iaac-maai/Group8-day1-assignment.git
+	url = https://github.com/iaac-maai/Group08_AI-Methods.git
 
 # ---------------------------------------------------------------------------
 # DAY 3 MODULES
@@ -169,3 +169,15 @@
 [submodule "Day_4/submissions/team_1"]
 	path = Day_4/submissions/team_1
 	url = https://github.com/iaac-maai/group1_day4_assignment.git
+[submodule "Day_4/submissions/team_5"]
+	path = Day_4/submissions/team_5
+	url = https://github.com/iaac-maai/5-day4-assignment.git
+[submodule "Day_4/submissions/team_3"]
+	path = Day_4/submissions/team_3
+	url = https://github.com/iaac-maai/group-3-day4-assignment.git
+[submodule "Day_4/submissions/team_8"]
+	path = Day_4/submissions/team_8
+	url = https://github.com/iaac-maai/Group08_Day04_AI-Methods.git
+[submodule "Day_4/submissions/team_4"]
+	path = Day_4/submissions/team_4
+	url = https://github.com/iaac-maai/Group4-day4-assignment
