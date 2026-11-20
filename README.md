@@ -1,4 +1,7 @@
-# ai-methods-1-2026
+# 2026 - AI METHODS I
+## INTORUDCTION TO MACHINE LEARNING APPLIED IN SMART CONSTRUCTION
+
+![ai methods 2627 cohort. Hackathon picture](readme_resources/ai_methods_1_2627_hackathon.jpeg)
 
 [![Hugging Face][hf-badge]][hf-url] [![Models][hf-models-badge]][hf-models-url] [![Datasets][hf-datasets-badge]][hf-datasets-url]
 
