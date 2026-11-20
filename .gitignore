@@ -454,3 +454,7 @@ presentations/
 **/runs/
 Day_4/docs/data/*
 !Day_4/docs/data/.gitkeep
+
+# README assets must always be tracked (overrides the image rules above)
+!readme_resources/
+!readme_resources/**
