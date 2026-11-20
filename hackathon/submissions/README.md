@@ -361,6 +361,7 @@ Each team gives **one impulse talk** of **3 to 5 minutes**, at the start of a cl
 - Make the slides in **Google Slides** and share them as "anyone with the link can view".
 - Put the link in `impulse/LINK.md`. It is due at the start of the class in which you present.
 - The structure, the questions and the diagram types are in [`IMPULSE_TALKS.md`](../docs/IMPULSE_TALKS.md).
+
 ---
 
 ## 10. The other files

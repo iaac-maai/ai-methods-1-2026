@@ -98,7 +98,7 @@ Use the exact same file name in code and in Git. Linux servers are case sensitiv
 
 ## .gitignore and secrets
 
-Never commit secrets. A secret in Git is public for ever, even after you delete it.
+Never commit secrets. A secret in Git is public forever, even after you delete it.
 
 | Ignore | Why |
 |---|---|

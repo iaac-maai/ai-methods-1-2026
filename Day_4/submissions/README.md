@@ -451,7 +451,7 @@ hf repos create iaac-maai/day4-team2-facade-windows --type dataset --exist-ok
 hf upload iaac-maai/day4-team2-facade-windows dataset . --type dataset --commit-message "Upload annotated images and dataset card"
 ```
 
-⚠️ **Watch out – tell the Data Viewer where the data is.** Without instructions, Hugging Face guesses which files are the dataset, and it often guesses wrong: the **figures of your dataset card** (`.png`) get shown as if they were dataset images, or a single CSV is hidden behind a few plots. Keep the card's figures in a `figures/` subfolder and add a `configs` block to the YAML header of the dataset card that points at the real data:
+⚠️ **Watch out – tell the Dataset Viewer where the data is.** Without instructions, Hugging Face guesses which files are the dataset, and it often guesses wrong: the **figures of your dataset card** (`.png`) get shown as if they were dataset images, or a single CSV is hidden behind a few plots. Keep the card's figures in a `figures/` subfolder and add a `configs` block to the YAML header of the dataset card that points at the real data:
 
 ```yaml
 configs:
