@@ -197,7 +197,7 @@
 
 [submodule "hackathon/submissions/team_2"]
 	path = hackathon/submissions/team_2
-	url = https://github.com/iaac-maai/group2_hackathon_IFCNet.git
+	url = https://github.com/iaac-maai/hackathon-team2-ifcnet.git
 
 [submodule "hackathon/submissions/team_3"]
 	path = hackathon/submissions/team_3
